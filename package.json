@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "teslaModelS": "npx cypress run --record --key 2865da09-993d-4169-8abc-e852df48bc85 --spec 'cypress/integration/Day3/tesla.spec.js' "
+    "teslaModelS": "npx cypress run --record --key 17a5aa24-2341-402e-ba27-3b34fc5335e8 --spec 'cypress/integration/Day3/tesla.spec.js' ",
+    "githubPage": "npx cypress run --record --key 17a5aa24-2341-402e-ba27-3b34fc5335e8 --spec 'cypress/integration/Day4/github.spec.js' "
   },
-  "author": "Altay",
+  "author": "Güler",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.5.0",
+    "cypress": "^9.5.2",
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
     "cypress-wait-until": "^1.7.2"
