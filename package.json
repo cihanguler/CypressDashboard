@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "teslaModelS": "npx cypress run --record --key 17a5aa24-2341-402e-ba27-3b34fc5335e8 --spec 'cypress/integration/Day3/tesla.spec.js' ",
-    "githubPage": "npx cypress run --record --key 17a5aa24-2341-402e-ba27-3b34fc5335e8 --spec 'cypress/integration/Day4/github.spec.js' "
+    "github": "npx cypress run --record --key 17a5aa24-2341-402e-ba27-3b34fc5335e8 --spec 'cypress/integration/Day4/github.spec.js' ",
+    "test": "cypress run -b chrome --headless --spec 'cypress/integration/1-getting-started/todo.spec.js'"
   },
   "author": "Güler",
   "license": "ISC",
@@ -13,7 +13,9 @@
     "cypress": "^9.5.2",
     "cypress-file-upload": "^5.0.8",
     "cypress-iframe": "^1.0.1",
-    "cypress-wait-until": "^1.7.2"
+    "cypress-wait-until": "^1.7.2",
+    "mochawesome": "^7.1.2",
+    "mochawesome-merge": "^4.2.1"
   },
   "dependencies": {
     "cypress-downloadfile": "^1.2.1"

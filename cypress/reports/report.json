@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-16T20:32:33.542Z",
+    "end": "2022-03-16T20:32:39.727Z",
+    "duration": 6185,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "53cb50f2-aa03-4b02-b0cc-a52bac229906",
+      "title": "",
+      "fullFile": "cypress/integration/Day4/github.spec.js",
+      "file": "cypress/integration/Day4/github.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8918d546-9f33-41f3-a31f-698e4d4238e5",
+          "title": "Udemy test cases",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login to the udemy",
+              "fullTitle": "Udemy test cases Login to the udemy",
+              "timedOut": null,
+              "duration": 3580,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_github.ongithubPage.verifySignInUrl();",
+              "err": {},
+              "uuid": "86999c4d-4f61-46bd-9773-8e61ffd7b4d8",
+              "parentUUID": "8918d546-9f33-41f3-a31f-698e4d4238e5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Navigate to page back",
+              "fullTitle": "Udemy test cases Navigate to page back",
+              "timedOut": null,
+              "duration": 713,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_github.ongithubPage.navigatetoMainPage();",
+              "err": {},
+              "uuid": "fe6846f3-1f13-4521-955c-ed0551a0441d",
+              "parentUUID": "8918d546-9f33-41f3-a31f-698e4d4238e5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "86999c4d-4f61-46bd-9773-8e61ffd7b4d8",
+            "fe6846f3-1f13-4521-955c-ed0551a0441d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4293,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.1.1"
+    }
+  }
+}
